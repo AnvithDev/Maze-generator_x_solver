@@ -28,8 +28,7 @@ function setup(){
             grid.push(cell);
         }
     current = grid[0];
-    last_index = grid.length-1;
-    last_cell = grid[last_index];
+    last_cell = grid[grid.length-1];
    
 }
 
